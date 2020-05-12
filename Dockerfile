@@ -8,4 +8,4 @@ COPY package.json package-lock.json /okteto/
 
 RUN npm install
 
-ENTRYPOINT ["shadow-cljs"]
+RUN npm run deps

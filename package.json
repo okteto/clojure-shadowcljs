@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "shadow-cljs watch app",
+    "deps": "shadow-cljs classpath",
     "compile": "shadow-cljs compile app",
     "release": "shadow-cljs release app",
     "html": "mkdir -p target && cp assets/index.html target/",
