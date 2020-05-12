@@ -1,0 +1,8 @@
+name: clojure-shadow-cljs
+image: okteto/shadow-cljs
+command:
+- bash
+forward:
+- 8080:8080
+- 9630:9630
+- 3333:3333
