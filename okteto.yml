@@ -1,14 +1,8 @@
 name: clojure-shadow-cljs
+autocreate: true
 image: okteto/shadow-cljs
-command:
-- bash
+command: bash
 forward:
-- 8080:8080
-- 9630:9630
-- 3333:3333
-resources:
-  limits:
-    memory: 2Gi
-    cpu: 1
-persistentVolume:
-  enabled: false
+  - 8080:8080
+  - 9630:9630
+  - 3333:3333
